@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+}
+main{
+    margin: 0;
+}
+/** header**/
+
+.connexion{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 13px;
+    background-color: #4484F1;
+    color: white;
+    padding-right: 13px;
+}
+
+nav a{
+    color: black;
+}
+.material-icons{
+    color: gray;
+    padding-top: 6px;
+}
+
+.material-icons:hover{
+    color: black;
+}
+
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: 16px 20px;
+}
+
+.navheader{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    justify-content: space-between;
+}
+/** Fin header**/
+
+/** Search Bar**/
+section{
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchContainer {
+    display: inline-flex;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+  }
+  
+.searchIcon {
+    padding: 0.5rem;
+    position: relative;
+    right: -5px;
+    width: 25px;
+    top: 8px
+  }
+  
+.searchBox {
+    border: 0;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    flex: 1;
+    width: 546px;
+    height: 44px;
+  }
+
+.mic{
+    padding: 0.4rem;
+    position: relative;
+    right: -5px;
+    width: 25px;
+    top: 8px
+}
+
+.boutton{
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.bouton1{
+    margin-right: 6px;
+	font:Bold 13px Arial;
+	background:#F2F2F2;
+	border-radius:2px;
+    border:none;
+    color: #666666;
+    outline: 0;
+    padding: 13px 18px 13px 18px;
+    border-radius: 5px;
+}
+
+.bouton2{
+    margin-left: 6px;
+	font:Bold 13px Arial;
+	background:#F2F2F2;
+	border-radius:2px;
+    border:none;
+    color: #666666;
+    outline: 0;
+    padding: 13px 18px 13px 18px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;  
+}
+a:hover{
+    text-decoration: underline black
+}
+
+.connexion:hover{
+    text-decoration: none;
+}
+/** Fin Search Bar**/
+
+
+#covid19{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+}
+
+#covid19 img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.googleenglish{
+    padding-top: 30px;
+}
+/** Footer **/
+footer{
+    background-color: #F2F2F2;
+    margin: 0;
+    padding-bottom: 20px;
+
+}
+
+.france{
+    padding-left: 20px;
+    color: #5F6368;
+    padding-top: 15px;
+    border-bottom:solid 1px silver;
+    border-top:solid 1px silver;
+
+}
+.navfooter{
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100%;
+}
+
+.gauche{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.droite{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a{
+    color: #5F6368;  
+}
+/** Fin Footer**/
+
